@@ -125,7 +125,7 @@ static u_int32_t print_pkt (struct nfq_data *tb)
 							break;
 						}
 						site[j] = data[j];
-						
+						printf("%c",site[j]);
 					}
 					printf("\n");
 					if(malicious_sites.count(string(site))){
